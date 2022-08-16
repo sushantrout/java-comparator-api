@@ -3,7 +3,6 @@
 <ol>
 	
   <li>public abstract int compare(T, T); <br><br></li>
-  <li>public abstract boolean equals(java.lang.Object); <br><br></li>
   <li>public java.util.Comparator<T> reversed(); <br><br></li>
   <li>public java.util.Comparator<T> thenComparing(java.util.Comparator<? super T>); <br><br></li>
   <li>public <U> java.util.Comparator<T> thenComparing(java.util.function.Function<? super T, ? extends U>, java.util.Comparator<? super U>); <br><br></li>
